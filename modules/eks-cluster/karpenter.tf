@@ -1,4 +1,4 @@
-# Create the KarpenterController IAM Role
+# Create the Karpenter Controller IAM Role
 module "iam_assumable_role_karpenter" {
   source                        = "terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc"
   version                       = "4.7.0"
