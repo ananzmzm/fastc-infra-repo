@@ -52,6 +52,8 @@ module "eks" {
     initial = {
       instance_types = ["t3.large"]
       create_security_group = false
+      create_launch_template = false
+      launch_template_name = ""
 
       min_size     = 2
       max_size     = 3
